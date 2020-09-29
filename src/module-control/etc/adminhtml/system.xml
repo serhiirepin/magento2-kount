@@ -18,7 +18,7 @@
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     <comment>Enable or disable the module store wide.</comment>
                 </field>
-            </group
+            </group>
         </section>
     </system>
 </config>
