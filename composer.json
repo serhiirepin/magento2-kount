@@ -27,7 +27,7 @@
   "autoload": {
     "files": [
       "src/module-complete/registration.php",
-      "src/module-control/registration.php",
+      "src/module-control/registration.php"
     ],
     "psr-4": {
       "Swarming\\Kount\\": "src/module-complete",
