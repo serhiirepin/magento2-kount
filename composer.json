@@ -25,9 +25,13 @@
     "kount/kount-ris-php-sdk": "^7.2"
   },
   "autoload": {
-    "files": ["registration.php"],
+    "files": [
+      "src/module-complete/registration.php",
+      "src/module-control/registration.php",
+    ],
     "psr-4": {
-      "Swarming\\Kount\\": ""
+      "Swarming\\Kount\\": "src/module-complete",
+      "Swarming\\KountControl\\": "src/module-control"
     }
   }
 }
